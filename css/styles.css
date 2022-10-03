@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: x-large;
+}
+
+header h1 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+        background: #282c34;
+        color: #fff;
+}
+
+nav {
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .mainMenu {
+    display: flex;
+    list-style: none;
+}
+
+nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+nav .mainMenu li a:hover {
+    background: rgb(255,94,0);
+}
+
+nav .openMenu {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+nav .mainMenu .closeMenu {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+@media(max-width: 800px) {
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav .openMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav .mainMenu li a:hover {
+        background: none;
+        color: rgb(255,123,0);
+        font-size: 1.6rem;
+    }
+}
+
+#about h3,#skills h3,#projects h3,#contact h3 {
+    position: relative;
+    top: 35vw;
+    font-size: 35px;
+    text-align: center;
+}
+
+#skills,#projects,#contact {
+    position: relative;
+    top: 20vw;
+}
+
+#projects,#contact {
+    top: 50vw;
+}
+
+#contact {
+    top: 80vw;
+}
+
+#about p {
+    width: 70%;
+    text-align: center;
+    line-height: 25px;
+    position: relative;
+    top: 13em;
+    left: 5em;
+}
+
+.project {
+    border: 1px solid white;
+    padding: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: aquamarine;
+    width: 60%;
+    position: relative;
+    left: 6em;
+    top: 25vh;
+    margin-bottom: 4em;
+}
+
+.project button {
+    padding: 1em;
+    color: #fff;
+    background: #282c34;
+    cursor: pointer;
+}
+
+.modal-container-reactapi,.modal-container-game-show {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.modalReactAPI,.modalGameShow {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 30px 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modalReactAPI button,.modalReactAPI p,.modalGameShow button,.modalGameShow p {
+    margin-top: 1.2em;
+    text-align: center;
+}
+
+.modal-container-reactapi.show,.modal-container-game-show.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#closeAPIProj,#closeGameShowProj {
+    position: relative;
+    left: 32vw;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#closeAPIProj {
+    bottom: 2vh;
+}
+
+#closeGameShowProj {
+    bottom: 32vh;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.fa-code,.fa-chrome {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.fa-code {
+    margin-right: 0.3em;
+}
+
+.skill-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 15em;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.col i {
+    font-size: 250px;
+    margin-bottom: 0.4em;
+}
