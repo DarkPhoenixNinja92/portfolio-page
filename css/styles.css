@@ -145,7 +145,7 @@ nav .mainMenu .closeMenu {
     cursor: pointer;
 }
 
-.modal-container-reactapi,.modal-container-game-show {
+.modal-container-reactapi,.modal-container-game-show,.modal-container-react-markdown {
     background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
@@ -160,7 +160,7 @@ nav .mainMenu .closeMenu {
     transition: opacity 0.6s ease;
 }
 
-.modalReactAPI,.modalGameShow {
+.modalReactAPI,.modalGameShow,.modalReactMarkdown {
     background-color: #fff;
     color: #000;
     border-radius: 5px;
@@ -173,17 +173,17 @@ nav .mainMenu .closeMenu {
     flex-direction: column;
 }
 
-.modalReactAPI button,.modalReactAPI p,.modalGameShow button,.modalGameShow p {
+.modalReactAPI button,.modalReactAPI p,.modalGameShow button,.modalGameShow p,.modalReactMarkdown button,.modalReactMarkdown p {
     margin-top: 1.2em;
     text-align: center;
 }
 
-.modal-container-reactapi.show,.modal-container-game-show.show {
+.modal-container-reactapi.show,.modal-container-game-show.show,.modal-container-react-markdown.show {
     opacity: 1;
     pointer-events: auto;
 }
 
-#closeAPIProj,#closeGameShowProj {
+#closeAPIProj,#closeGameShowProj,#closeMarkdownProj {
     position: relative;
     left: 32vw;
     font-size: 25px;
