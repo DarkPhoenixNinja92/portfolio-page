@@ -4,12 +4,15 @@ const openMenu = document.querySelector('.openMenu');
 const open = document.getElementById('openAPIProj');
 const openGameShow = document.getElementById('openGameShow');
 const openMarkdownPreviewer = document.getElementById('openMarkdownPreviewer');
+const openDrumKit = document.getElementById('openDrumProj');
 const modalContainer = document.getElementById('modal_container_reactapi');
 const gameShowContainer = document.getElementById('modal_container_game_show');
 const markdownContainer = document.getElementById('modal_container_reactmarkdown');
+const drumKitContainer = document.getElementById('modal_container_reactdrum');
 const close = document.getElementById('closeAPIProj');
 const closeGameShow = document.getElementById('closeGameShowProj');
 const closeMarkdownProj = document.getElementById('closeMarkdownProj');
+const closeDrumKitProj = document.getElementById('closeDrumProj');
 const menuItm = document.querySelectorAll('.mainMenu li a');
 
 openMenu.addEventListener('click', () => {
@@ -43,6 +46,13 @@ closeMarkdownProj.addEventListener('click', () => {
     markdownContainer.classList.remove('show');
 })
 
+openDrumKit.addEventListener('click', () => {
+    drumKitContainer.classList.add('show');
+});
+
+closeDrumKitProj.addEventListener('click', () => {
+    drumKitContainer.classList.remove('show');
+})
 
 
 menuItm.forEach((menuClose => {
