@@ -13,6 +13,7 @@ header {
 
 header h1 {
     text-transform: uppercase;
+    margin-top: 2.5em;
     margin-bottom: 1rem;
 }
 
@@ -107,6 +108,10 @@ nav .mainMenu .closeMenu {
     top: 20vw;
 }
 
+#skills {
+    top: 22vh;
+}
+
 #projects,#contact {
     top: 50vw;
 }
@@ -121,7 +126,7 @@ nav .mainMenu .closeMenu {
     line-height: 25px;
     position: relative;
     top: 13em;
-    left: 5em;
+    left: 3.5em;
 }
 
 .project {
@@ -133,7 +138,7 @@ nav .mainMenu .closeMenu {
     background: aquamarine;
     width: 60%;
     position: relative;
-    left: 6em;
+    left: 4.5em;
     top: 25vh;
     margin-bottom: 4em;
 }
@@ -234,4 +239,35 @@ nav .mainMenu .closeMenu {
 .col i {
     font-size: 250px;
     margin-bottom: 0.4em;
+}
+
+#contact h3 {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1em;
+}
+
+.social-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: rgb(255,123,0);
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    top: 10em;
+}
+
+#social ul {
+    list-style: none;
+}
+
+#social ul li {
+    margin-bottom: 1.5em;
 }
