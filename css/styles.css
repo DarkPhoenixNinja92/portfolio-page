@@ -79,14 +79,14 @@ nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
         top: 20px;
-        right: 20px;
+        right: 30px;
     }
 
     nav .openMenu {
         display: block;
         position: absolute;
         top: 20px;
-        right: 20px;
+        right: -20px;
     }
 
     nav .mainMenu li a:hover {
@@ -288,6 +288,14 @@ nav .mainMenu .closeMenu {
 }
 
 @media(min-width: 768px) {
+    nav .openMenu {
+        right: 20px;
+    }
+
+    nav .mainMenu .closeMenu {
+        right: 80px;
+    }
+
     #about h3 {
         top: 3em;
     }
@@ -300,6 +308,10 @@ nav .mainMenu .closeMenu {
         top: 4em;
     }
 
+    #projects h3 {
+        top: 5em;
+    }
+
     .col {
         flex-direction: row;
     }
@@ -308,5 +320,23 @@ nav .mainMenu .closeMenu {
         font-size: 200px;
         margin-right: 40px;
         margin-bottom: -2px;
+    }
+
+    .col .project:first-of-type {
+        margin-right: 30px;
+    }
+
+    #closeGameShowProj {
+        bottom: 9em;
+    }
+
+    #contact h3 {
+        top: 2em;
+        left: 2em;
+    }
+
+    #social {
+        margin-top: -60px;
+        left: 5em;
     }
 }
