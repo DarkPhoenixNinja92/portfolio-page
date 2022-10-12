@@ -340,3 +340,69 @@ nav .mainMenu .closeMenu {
         left: 5em;
     }
 }
+
+@media(min-width: 1024px) {
+    .skill-list .col i {
+        font-size: 270px;
+        margin-right: 55px;
+    }
+    nav {
+        width: 105vw;
+    }
+    #about p {
+        position: relative;
+        left: 9em;
+    }
+}
+
+@media(min-width: 1440px) {
+    #about p {
+        left: 25em;
+        width: 45%;
+    }
+    #projects {
+        position: relative;
+        top: 38vh;
+    }
+    #contact {
+        position: relative;
+        top: 55vh;
+    }
+    .project {
+        width: 25%;
+    }
+}
+
+@media(min-width: 2560px) {
+    h1,h2 {
+        font-size: 55px;
+    }
+    #about h3,#skills h3 {
+        font-size: 45px;
+    }
+
+    #skills h3 {
+        font-size: 60px;
+        position: relative;
+        top: 2em;
+    }
+
+    #about p {
+        font-size: 30px;
+        line-height: 45px;
+        position: relative;
+        top: 7em;
+    }
+
+    .skill-list {
+        position: relative;
+        left: 11em;
+    }
+    .skill-list .col i {
+        margin-right: 0.9em;
+        margin-bottom: 0.3em;
+    }
+    .project {
+        width: 16%;
+    }
+}
