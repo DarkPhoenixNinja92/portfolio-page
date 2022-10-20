@@ -139,24 +139,32 @@ nav .mainMenu .closeMenu {
 }
 
 .project {
-    border: 1px solid white;
-    padding: 6em;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: aquamarine;
-    width: 80%;
     position: relative;
-    left: 2.2em;
+    left: 5.5em;
     top: 25vh;
+    width: 90vw;
     margin-bottom: 4em;
 }
 
+.quote-preview, .game-show, .markdown-proj, .drum-machine {
+    position: relative;
+    width: 90vw;
+    border-radius: 10px;
+}
+
 .project button {
-    padding: 1em;
+    padding: 1em 3em;
     color: #fff;
     background: #282c34;
     cursor: pointer;
+}
+#openAPIProj, #openGameShow, #openMarkdownPreviewer, #openDrumProj {
+    position: relative;
+    right: 16em;
+    top: 6em;
 }
 
 .modal-container-reactapi,.modal-container-game-show,.modal-container-react-markdown,.modal-container-react-drum {
@@ -239,7 +247,7 @@ nav .mainMenu .closeMenu {
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 3em;
+    left: 2em;
     top: 15em;
 }
 
