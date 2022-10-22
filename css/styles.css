@@ -334,11 +334,11 @@ nav .mainMenu .closeMenu {
 
 @media(min-width: 768px) {
     nav .openMenu {
-        left: 140vw;
+        left: 90vw;
     }
 
     nav .mainMenu .closeMenu {
-        right: 80px;
+        left: 90vw;
     }
 
     #about h3 {
