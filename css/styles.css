@@ -357,6 +357,11 @@ nav .mainMenu .closeMenu {
         top: 5em;
     }
 
+    .game-show,.drum-machine {
+        position: relative;
+        right: 3em;
+    }
+
     .project-container .col {
         display: flex;
         flex-direction: column;
@@ -376,6 +381,15 @@ nav .mainMenu .closeMenu {
         right: 25em;
     }
 
+    .react-api-img,.modalReactAPI,.js-game-img,.modalGameShow {
+        position: relative;
+        right: 4em;
+    }
+    #closeAPIProj,#closeGameShowProj {
+        bottom: 41vh;
+        left: 40vw;
+    }
+
     .col {
         flex-direction: row;
     }
@@ -391,7 +405,7 @@ nav .mainMenu .closeMenu {
     }
 
     #closeGameShowProj {
-        bottom: 9em;
+        bottom: 30em;
     }
 
     #contact h3 {
@@ -403,7 +417,7 @@ nav .mainMenu .closeMenu {
         margin-top: -60px;
         left: 5em;
     }
-}
+    }
 
 @media(min-width: 1024px) {
     .skill-list .col i {
