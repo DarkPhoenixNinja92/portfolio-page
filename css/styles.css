@@ -430,11 +430,59 @@ nav .mainMenu .closeMenu {
         margin-right: 55px;
     }
     nav {
-        width: 105vw;
+        width: 97.5vw;
     }
     #about p {
         position: relative;
         left: 9em;
+    }
+    #modal_container_reactapi,#modal_container_game_show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #modal_container_reactapi .modalReactAPI {
+        width: 67.3vw;
+    }
+    #closeAPIProj {
+        position: relative;
+        left: 12.4em;
+    }
+    #modal_container_game_show .modalGameShow {
+        width: 79.35vw;
+    }
+    #closeGameShowProj {
+        left: 15em;
+        bottom: 68.5vh;
+    }
+    #modal_container_reactmarkdown .modalReactMarkdown {
+        width: 40vw;
+    }
+    #modal_container_reactmarkdown .react-markdown-img {
+        width: 46.8vw;
+    }
+    #modal_container_reactmarkdown {
+        top: -5em;
+    }
+    #closeMarkdownProj {
+        bottom: 73.5vh;
+        left: 17.6vw;
+    }
+    .drum-machine  {
+        position: relative;
+        right: 9vw;
+    }
+    #modal_container_reactdrum .modalReactDrum {
+        width: 64.7%;
+    }
+    #closeDrumProj {
+        bottom: 54.6vh;
+        left: 36vw;
+    }
+    #contact {
+        right: 4em;
+        width: 95%;
     }
 }
 
