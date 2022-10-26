@@ -408,6 +408,11 @@ nav .mainMenu .closeMenu {
         bottom: 30em;
     }
 
+    #closeDrumProj {
+        bottom: 23em;
+        left: 12em;
+    }
+
     #contact h3 {
         top: 2em;
         left: 2em;
