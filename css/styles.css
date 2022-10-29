@@ -436,6 +436,17 @@ nav .mainMenu .closeMenu {
         position: relative;
         left: 9em;
     }
+#openAPIProj,#openGameShow,#openMarkdownPreviewer,#openDrumProj {
+    right: 45vw;
+    top: 15vh;
+}
+#openGameShow {
+    right: 55vw;
+}
+#openDrumProj {
+    right: 54vw;
+}
+
     #modal_container_reactapi,#modal_container_game_show {
         display: flex;
         flex-direction: column;
