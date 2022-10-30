@@ -498,6 +498,9 @@ nav .mainMenu .closeMenu {
 }
 
 @media(min-width: 1440px) {
+    nav {
+        width: 113.5vw;
+    }
     #about p {
         left: 25em;
         width: 45%;
@@ -505,12 +508,19 @@ nav .mainMenu .closeMenu {
     #projects {
         position: relative;
         top: 38vh;
+        right: 40vw;
     }
+
+    #projects h3 {
+        left: 15em;
+    }
+
     #contact {
         position: relative;
         top: 55vh;
     }
     .project {
+        position: relative;
         width: 25%;
     }
 }
