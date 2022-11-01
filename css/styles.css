@@ -482,7 +482,7 @@ nav .mainMenu .closeMenu {
     }
     .drum-machine  {
         position: relative;
-        right: 9vw;
+        right: 3    vw;
     }
     #modal_container_reactdrum .modalReactDrum {
         width: 64.7%;
@@ -499,7 +499,7 @@ nav .mainMenu .closeMenu {
 
 @media(min-width: 1440px) {
     nav {
-        width: 113.5vw;
+        width: 1436px;
     }
     #about p {
         left: 25em;
@@ -522,6 +522,60 @@ nav .mainMenu .closeMenu {
     .project {
         position: relative;
         width: 25%;
+    }
+    #openAPIProj {
+        right: 35vw;
+    }
+    #openGameShow {
+        top: 25vh;
+        right: 45vw;
+    }
+    #openMarkdownPreviewer {
+        right: 17vw;
+    }
+    #openDrumProj {
+        right: 45vw;
+    }
+    #modal_container_reactapi .react-api-img {
+        width: 89.6vw;
+    }
+    #closeAPIProj {
+        bottom: 57vh;
+        left: 31vw;
+    }
+    #modal_container_game_show .js-game-img {
+        width: 105.6vw;
+    }
+    #closeGameShowProj {
+        left: 37vw;
+        bottom: 88vh;
+    }
+    #modal_container_reactdrum .react-drum-img {
+        width: 103.4vw;
+    }
+    #closeDrumProj {
+        left: 37vw;
+        bottom: 76vh;
+    }
+    #modal_container_reactmarkdown {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    #modal_container_reactmarkdown .react-markdown-img img {
+        position: relative;
+        height: 65vw;
+        border-radius: 10px 0 0 10px;
+    }
+    #modal_container_reactmarkdown .modalReactMarkdown {
+        position: relative;
+        right: 3.3em;
+        height: 65vw;
+        border-radius: 0 10px 10px 0;
+    }
+    #closeMarkdownProj {
+        left: 18vw;
+        bottom: 27vh;
     }
 }
 
