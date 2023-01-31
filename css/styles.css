@@ -580,6 +580,10 @@ nav .mainMenu .closeMenu {
 }
 
 @media(min-width: 2560px) {
+    nav {
+        width: 105vw;
+    }
+
     h1,h2 {
         font-size: 55px;
     }
