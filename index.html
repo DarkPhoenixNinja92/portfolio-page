@@ -4,166 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaun's Developer Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <title>Shaun's Portfolio Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav>
-        <div class="openMenu"><i class="fa fa-bars"></i></div>
-        <ul class="mainMenu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <div class="closeMenu"><i class="fa fa-times"></i></div>
-        </ul>
-    </nav>
-    <header id="home">
-        <h1>Shaun Pour</h1>
-        <h2>Web Developer</h2>
-    </header>
-    <main>
-        <section id="about">
-            <h3>About Me</h3>
-            <p>
-                Hi! My name's Shaun and I'm a self-taught web developer who's passionate about javascript and loves building things.
-                I have a decent foundation in HTML and CSS and am quite skilled at javascript. I don't give up when I'm having trouble with something and
-                I will always find a way to make a project work in one way or another. I've also recently started learning React and have even built a couple
-                (mostly) fully functional projects using it that make use of all the important bits as well as one that combines both React and an API.
-                You can find all of these as well as many others in my projects section down below.
-            </p>
-        </section>
-        <section id="skills">
-            <h3>Skills</h3>
-            <div class="skill-list">
-                <div class="col">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3-alt"></i>
-                <i class="fa-brands fa-sass"></i>
-            </div>
-            <div class="col">
-                <i class="fa-brands fa-bootstrap"></i>
-                <i class="fa-brands fa-js"></i>
-                <i class="fa-brands fa-react"></i>
-            </div>
-            <div class="col">
-                <i class="fa-brands fa-square-github"></i>
-                <i class="fa-brands fa-figma"></i>
-            </div>
-            </div>
-        </section>
-        <section id="projects">
-            <h3>Projects</h3>
-            <div class="project-container">
-                <div class="col">
-            <div class="project">
-                <img class="quote-preview" src="images/react-quote-generator.png">
-                <button id="openAPIProj">View Project</button>
-            </div>
-            <div class="project">
-                <img class="game-show" src="images/game-show-js.png">
-                <button id="openGameShow">View Project</button>
-            </div>
-        </div>
-        <div class="col">
-            <div class="project">
-                <img class="markdown-proj" src="images/react-markdown.png">
-                <button id="openMarkdownPreviewer">View Project</button>
-            </div>
-            <!-- <div class="project">
-                <img class="drum-machine" src="images/react-drum-machine.png">
-                <button id="openDrumProj">View Project</button>
-            </div> -->
-        </div>
-        </div>
-        </section>
-        <div class="modal-container-reactapi" id="modal_container_reactapi">
-            <div class="react-api-img">
-                <img src="images/react-quote-generator.png">
-            </div>
-            <div class="modalReactAPI">
-                <i class="fa fa-times" id="closeAPIProj"></i>
-                <h3>React Quote Generator w/ API</h3>
-                <p>
-                    This project is my second time making use of an API and my first proper react project. It uses Math.random and Math.floor
-                    to pick a quote from those present in the API and print it to the screen on page load and also generates a new one and refreshes
-                    the quote box section when the designated button is pressed.
-                </p>
-                <div class="links">
-                <a href="https://github.com/DarkPhoenixNinja92/fcc-random-quote-generator" target="_blank"><i class="fa-solid fa-code"></i></a>
-                <a href="https://darkphoenixninja92.github.io/fcc-random-quote-generator/" target="_blank"><i class="fa-brands fa-chrome"></i></a>
-            </div>
-            </div>
-        </div>
-        <div class="modal-container-game-show" id="modal_container_game_show">
-            <div class="js-game-img">
-                <img src="images/game-show-js.png">
-            </div>
-            <div class="modalGameShow">
-                <h3>JavaScript Game Show App</h3>
-                <p>
-                    This project was done as part of TeamTreeHouse's Front End Techdegree program. It's worth noting that the html and css were provided
-                    for me. I worked on the JavaScript exclusively. It was quite the learning experience and helped me get a better grasp on DOM manipulation.
-                </p>
-                <div class="links">
-                    <a href="https://github.com/DarkPhoenixNinja92/Team-Treehouse-Unit-06-Game-Show-App" target="_blank"><i class="fa-solid fa-code"></i></a>
-                   <a href="https://darkphoenixninja92.github.io/Team-Treehouse-Unit-06-Game-Show-App/" target="_blank"><i class="fa-brands fa-chrome"></i></a>
-                </div>
-                <i class="fa fa-times" id="closeGameShowProj"></i>
-            </div>
-        </div>
-        <div class="modal-container-react-markdown" id="modal_container_reactmarkdown">
-            <div class="react-markdown-img">
-                <img src="images/react-markdown.png">
-            </div>
-            <div class="modalReactMarkdown">
-                <i class="fa fa-times" id="closeMarkdownProj"></i>
-                <h3>React Markdown Previewer</h3>
-                <p>
-                    One of the FreeCodeCamp JavaScript Library projects, this is a markdown previewer using React. It uses state and hooks to convert
-                    text entered into a textarea field into markdown by using the markdown library to determine what type a certain line should be
-                    and converting it accordingly.
-                </p>
-                <div class="links">
-                <a href="https://github.com/DarkPhoenixNinja92/fcc-react-markdown-previewer" target="_blank"><i class="fa-solid fa-code"></i></a>
-                <a href="https://darkphoenixninja92.github.io/fcc-react-markdown-previewer/" target="_blank"><i class="fa-brands fa-chrome"></i></a>
-            </div>
-            </div>
-        </div>
-        <!-- <div class="modal-container-react-drum" id="modal_container_reactdrum">
-            <div class="react-drum-img">
-                <img src="images/react-drum-machine.png">
-            </div>
-            <div class="modalReactDrum">
-                <i class="fa fa-times" id="closeDrumProj"></i>
-                <h3>React Drum Machine</h3>
-                <p>
-                    One of the FreeCodeCamp JavaScript Library projects, this is a 'Drum Machine'. It uses an array of objects to store data points for later rendering.
-                    This project also makes use of React components to separate out the various pieces into their own files and uses import chaining to set them up so the
-                    various pieces render when needed rather than always being present.
-                </p>
-                <div class="links">
-                <a href="https://github.com/DarkPhoenixNinja92/fcc-drum-machine" target="_blank"><i class="fa-solid fa-code"></i></a>
-                <a href="https://darkphoenixninja92.github.io/fcc-drum-machine/" target="_blank"><i class="fa-brands fa-chrome"></i></a>
-            </div>
-            </div>
-        </div> -->
-        <section id="contact">
-            <h3>Contact</h3>
-            <div id="social">
-                <ul>
-                    <li><a class="social-link" href="https://www.facebook.com/scpour"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
-                    <li><a class="social-link" href="https://github.com/DarkPhoenixNinja92"><i class="fa-brands fa-github"></i> GitHub</a></li>
-                    <li><a class="social-link" href="https://www.linkedin.com/in/shaun-pour-4a1227101/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
-                    <li><a class="social-link" href="mailto: scpour@gmail.com"><i class="fa-solid fa-square-envelope"></i> Email</a></li>
-                    <li><a class="social-link" href="https://codepen.io/scpour92"><i class="fa-brands fa-codepen"></i> CodePen</a></li>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Skills</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
                 </ul>
+              </div>
             </div>
-        </section>
-
+          </nav>
+    </header>
+    <main class="text-bg-primary p-3 text-center">
+        <div class="heading text-center text-uppercase">
+        <h1 class="title">Shaun Pour</h1>
+        <h2 class="subtitle">Web Developer</h2>
+    </div>
+    <div class="about">
+    <hr>
+    <h3 id="about" class="text-center mb-5  mt-5">About Me</h3>
+    <p class="text-center">
+        Hi! My name's Shaun and I am a self-taught web developer who's passionate about JavaScript and loves building things. I have a foundation in HTML and CSS and am quite skilled at JavaScript.
+        I don't give up when I'm having trouble with something and I will always find a way to make a project work in one way or another. I've also recently started learning React and have even built a
+        couple of fully functional projects using it which make use of all the important bits as well as one that combines both React and an API. You can find all of these as well as many others in my projects section down below.
+    </p>
+</div>
+<hr>
+<div class="skills mt-5 mb-5">
+    <h3 id="skills">My Skills</h3>
+    <ul class="list-unstyled">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>SASS</li>
+        <li>BootStrap</li>
+        <li>ReactJS</li>
+        <li>Figma</li>
+        <li>GitHub</li>
+    </ul>
+</div>
+<div class="projects">
+    <hr>
+    <h3 id="projects">My Projects</h3>
+    <section class="card mt-5 text-black">
+        <h4 class="card-title">FreeCodeCamp React Quote Generator</h4>
+        <a href="https://darkphoenixninja92.github.io/fcc-random-quote-generator/" target="_blank"><img src="images/react-quote-generator.png" class="card-img-top"></a>
+        <div>
+            <a href="https://darkphoenixninja92.github.io/fcc-random-quote-generator/" target="_blank"><button>See the Site</button></a>
+            <a href="https://github.com/DarkPhoenixNinja92/fcc-random-quote-generator/" target="_blank"><button>See the Code</button></a>
+        </div>
+    </section>
+    <section class="card mt-5 text-black">
+        <h4 class="card-title">FreeCodeCamp Markdown Previewer</h4>
+        <a href="https://darkphoenixninja92.github.io/fcc-random-quote-generator" target="_blank"><img src="images/react-markdown.png" class="card-img-top"></a>
+        <div>
+            <a href="https://darkphoenixninja92.github.io/fcc-random-quote-generator" target="_blank"><button>See the Site</button></a>
+            <a href="https://github.com/DarkPhoenixNinja92/fcc-react-markdown-previewer" target="_blank"><button>See the Code</button></a>
+        </div>
+    </section>
+    <section class="card mt-5 text-black">
+        <h4 class="card-title">JavaScript Word Guessing Game</h4>
+        <a href="https://darkphoenixninja92.github.io/Team-Treehouse-Unit-06-Game-Show-App/"><img src="images/game-show-js.png" class="card-img-top"></a>
+        <div>
+            <a href="https://darkphoenixninja92.github.io/Team-Treehouse-Unit-06-Game-Show-App/"><button>See the Site</button></a>
+            <a href="https://github.com/DarkPhoenixNinja92/Team-Treehouse-Unit-06-Game-Show-App"><button>See the Code</button></a>
+        </div>
+    </section>
+</div>
     </main>
-    <script src="js/app.js"></script>
+    <footer class="text-bg-primary p-3 text-center">
+        <hr>
+        <h3 class="mb-5">Contact</h3>
+        <div id="contact">
+            <ul class="list-unstyled">
+                <li>
+                    <a class="social-link text-bg-primary text-decoration-none" href="https://www.facebook.com/scpour"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                </li>
+                <li>
+                    <a class="social-link text-bg-primary text-decoration-none" href="https://github.com/DarkPhoenixNinja92"><i class="fa-brands fa-github"></i> GitHub</a>
+                </li>
+                <li>
+                    <a class="social-link text-bg-primary text-decoration-none" href="https://www.linkedin.com/in/shaun-pour-4a1227101/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                </li>
+                <li>
+                    <a class="social-link text-bg-primary text-decoration-none" href="mailto: scpour@gmail.com"><i class="fa-solid fa-square-envelope"></i> Email</a>
+                </li>
+                <li>
+                    <a class="social-link text-bg-primary text-decoration-none" href="https://codepen.io/scpour92"><i class="fa-brands fa-codepen"></i> CodePen</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
 </html>
