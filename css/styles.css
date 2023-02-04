@@ -1,3 +1,20 @@
 #markdown-card img{
     height: 100vh;
 }
+
+.list-unstyled,.row-first,.row-second,.row-third {
+    display: flex;
+}
+
+.list-unstyled {
+    flex-direction: column;
+}
+
+.row-first,.row-second,.row-third {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row-first,.row-second,.row-third {
+    margin-top: 1em;
+}
