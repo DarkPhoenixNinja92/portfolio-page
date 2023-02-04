@@ -1,5 +1,5 @@
 #markdown-card img{
-    height: 100vh;
+    height: 22vh;
 }
 
 .list-unstyled,.row-first,.row-second,.row-third,.contact-first,.contact-second {
@@ -31,5 +31,11 @@
 
     .top-link {
         margin-top: 13em;
+    }
+}
+
+@media (min-width: 1024px) {
+    #markdown-card img{
+        height: 30vh;
     }
 }
