@@ -1,152 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaun's Portfolio Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="images/me.jpg" alt="" width="120" height="auto" class="d-inline-block align-text-top rounded-circle">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li>
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                  </li>
-                  <li>
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shaun's Portfolio Page</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <nav id="top">
+                <ul class="nav-list">
+                    <li class="nav-itm">
+                        <a href="" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-itm">
+                        <a href="" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-itm">
+                        <a href="" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-itm">
+                        <a href="" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-itm">
+                        <a href="" class="nav-link">Contact</a>
+                    </li>
                 </ul>
-              </div>
+            </nav>
+        </header>
+        <main class="text-bg-primary p-3 text-center">
+            <div class="heading text-center text-uppercase">
+                <h1 class="title">Shaun Pour</h1>
+                <h2 class="subtitle">Web Developer</h2>
             </div>
-          </nav>
-    </header>
-    <main class="text-bg-primary p-3 text-center">
-        <div class="heading text-center text-uppercase">
-        <h1 class="title">Shaun Pour</h1>
-        <h2 class="subtitle">Web Developer</h2>
-    </div>
-    <div class="about">
-    <hr>
-    <h3 id="about" class="text-center mb-5  mt-5">About Me</h3>
-    <p class="text-center">
-        Hi! My name's Shaun and I am a self-taught web developer who's passionate about JavaScript and loves building things. I have a foundation in HTML and CSS and am quite skilled at JavaScript.
-        I don't give up when I'm having trouble with something and I will always find a way to make a project work in one way or another. I've also recently started learning React and have even built a
-        couple of fully functional projects using it which make use of all the important bits as well as one that combines both React and an API. You can find all of these as well as many others in my projects section down below.
-    </p>
-</div>
-<hr>
-<div class="skills mt-5 mb-5">
-    <h3 id="skills">My Skills</h3>
-    <ul class="list-unstyled">
-        <div class="row-first">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </div>
-    <div class="row-second">
-        <li>SASS</li>
-        <li>BootStrap</li>
-        <li>ReactJS</li>
-    </div>
-    <div class="row-third">
-        <li>Figma</li>
-        <li>GitHub</li>
-    </div>
-    </ul>
-</div>
-<div class="projects">
-    <hr>
-    <h3 id="projects">My Projects</h3>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col">
-    <section class="card mt-5 text-black">
-        <h4 class="card-title">FreeCodeCamp React Quote Generator</h4>
-        <a href="https://darkphoenixninja92.github.io/fcc-random-quote-generator/" target="_blank"><img src="images/react-quote-generator.png" class="card-img-top"></a>
-        <div>
-            <a href="https://darkphoenixninja92.github.io/fcc-random-quote-generator/" target="_blank"><button>See the Site</button></a>
-            <a href="https://github.com/DarkPhoenixNinja92/fcc-random-quote-generator/" target="_blank"><button>See the Code</button></a>
-        </div>
-    </section>
-</div>
-<div class="col">
-    <section class="card mt-5 text-black" id="markdown-card">
-        <h4 class="card-title">FreeCodeCamp Markdown Previewer</h4>
-        <a href="https://darkphoenixninja92.github.io/fcc-random-quote-generator" target="_blank"><img src="images/react-markdown.png" class="card-img-top"></a>
-        <div>
-            <a href="https://darkphoenixninja92.github.io/fcc-random-quote-generator" target="_blank"><button>See the Site</button></a>
-            <a href="https://github.com/DarkPhoenixNinja92/fcc-react-markdown-previewer" target="_blank"><button>See the Code</button></a>
-        </div>
-    </section>
-</div>
-</div>
-<div class="row">
-    <div class="col">
-    <section class="card mt-5 text-black">
-        <h4 class="card-title">JavaScript Word Guessing Game</h4>
-        <a href="https://darkphoenixninja92.github.io/Team-Treehouse-Unit-06-Game-Show-App/"><img src="images/game-show-js.png" class="card-img-top"></a>
-        <div>
-            <a href="https://darkphoenixninja92.github.io/Team-Treehouse-Unit-06-Game-Show-App/"><button>See the Site</button></a>
-            <a href="https://github.com/DarkPhoenixNinja92/Team-Treehouse-Unit-06-Game-Show-App"><button>See the Code</button></a>
-        </div>
-    </section>
-</div>
-</div>
-</div>
-</div>
-    </main>
-    <footer class="text-bg-primary p-3 text-center">
-        <hr>
-        <h3 class="mb-5">Contact</h3>
-        <div id="contact">
-            <ul class="list-unstyled">
-                <div class="contact-first">
-                <li>
-                    <a class="social-link text-bg-primary text-decoration-none" href="https://www.facebook.com/scpour"><i class="fa-brands fa-facebook"></i> Facebook</a>
-                </li>
-                <li>
-                    <a class="social-link text-bg-primary text-decoration-none" href="https://github.com/DarkPhoenixNinja92"><i class="fa-brands fa-github"></i> GitHub</a>
-                </li>
-                <li>
-                    <a class="social-link text-bg-primary text-decoration-none" href="https://www.linkedin.com/in/shaun-pour-4a1227101/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-                </li>
+            <div class="about">
+                <hr>
+                <h3 id="about">About Me</h3>
+                <p class="about-txt">
+                    Hi! My name's Shaun and I am a self-taught web developer who's passionate about
+                    JavaScript and loves building things. I have a foundation in HTML and CSS and am
+                    quite skilled at JavaScript. I don't give up when I'm having trouble with
+                    something and I will always find a way to make a project work. I've also started
+                    learning React and have even built a couple of fully functional projects using
+                    it which make use of all the important bits as well as one that combines both
+                    React and an API. You can find all of these as well as many others in my
+                    projects section down below.
+                </p>
             </div>
-            <div class="contact-second">
-                <li>
-                    <a class="social-link text-bg-primary text-decoration-none" href="mailto: scpour@gmail.com"><i class="fa-solid fa-square-envelope"></i> Email</a>
-                </li>
-                <li>
-                    <a class="social-link text-bg-primary text-decoration-none" href="https://codepen.io/scpour92"><i class="fa-brands fa-codepen"></i> CodePen</a>
-                </li>
+            <hr>
+            <div class="skills">
+                <h3 id="skills">My Skills</h3>
+                <ul class="skill-list">
+                    <div class="row-first">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </div>
+                    <div class="row-second">
+                        <li>SASS</li>
+                        <li>BootStrap</li>
+                        <li>ReactJS</li>
+                    </div>
+                    <div class="row-third">
+                        <li>Figma</li>
+                        <li>GitHub</li>
+                    </div>
+                </ul>
             </div>
-            </ul>
-        </div>
-        <hr>
-        <a href="#top" class="text-bg-primary text-decoration-none top-link">Back to Top</a>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
-</body>
-</html>
+            <div class="projects"></div>
+        </main>
+        <footer>
+            <script src="js/script.js"></script>
+        </body>
+    </html>
