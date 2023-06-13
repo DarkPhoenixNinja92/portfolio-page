@@ -2,21 +2,33 @@
     list-style-type: none;
     display: none;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: left;
     position: absolute;
     top: -1em;
-    right: 0;
+    right: -100vw;
     height: 100vh;
     width: 33.33vw;
     background-color: skyblue;
-
     .nav-itm {
         margin-top: 3em;
         .nav-link {
             text-decoration: none;
             color: #000;
             font-size: 2em;
+        }
+    }
+}
+
+.nav-list-anim {
+    animation-duration: 1.5s;
+    animation-name: slidein;
+    @keyframes slidein {
+        from {
+            right: -100vw;
+        }
+        to {
+            right: 0;
         }
     }
 }
@@ -34,10 +46,26 @@
 }
 
 .mobile-menu-close {
+    position: relative;
+    left: 80vw;
     width: 15%;
     display: none;
 }
 
 .nav-show {
     display: flex;
+    right: 0;
+}
+
+.closing {
+    animation-duration: 2s;
+    animation-name: slideout;
+    @keyframes slideout {
+        from {
+            right: 0;
+        }
+        to {
+            right: -100vw;
+        }
+    }
 }
