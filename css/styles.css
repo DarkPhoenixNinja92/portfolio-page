@@ -6,6 +6,23 @@
   font-size: 35px;
 }
 
+.about-txt, #about {
+  text-align: center;
+  font-size: 22px;
+}
+
+#about {
+  font-size: 28px;
+}
+
+.skill-list {
+  list-style-type: none;
+}
+
+.row i {
+  font-size: 15em;
+}
+
 .nav-list {
   list-style-type: none;
   display: none;
@@ -45,7 +62,8 @@
   padding-top: 4.5em;
 }
 
-.mobile-menu, .mobile-menu-close {
+.mobile-menu,
+.mobile-menu-close {
   width: 20%;
   position: absolute;
   cursor: pointer;
