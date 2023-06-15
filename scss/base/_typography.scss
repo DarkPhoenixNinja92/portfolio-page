@@ -1,0 +1,35 @@
+.project {
+    border: 2px solid steelblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    margin-top: 4em;
+}
+
+.project-description {
+    text-align: center;
+}
+
+.project-title {
+    position: relative;
+    bottom: 2.4vh;
+    background-color: firebrick;
+    padding: 5vh 35vw 5vh 35vw;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.heading {
+    position: relative;
+    left: 2.6em;
+    top: 1em;
+    z-index: 20;
+}

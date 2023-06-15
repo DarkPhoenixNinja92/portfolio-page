@@ -7,8 +7,9 @@
     position: absolute;
     top: -1em;
     right: -100vw;
-    height: 100vh;
+    height: 104.5vh;
     width: 33.33vw;
+    z-index: 400;
     background-color: skyblue;
     .nav-itm {
         margin-top: 3em;
@@ -51,6 +52,7 @@
     left: 80vw;
     width: 15%;
     display: none;
+    z-index: 430;
 }
 
 .nav-show {

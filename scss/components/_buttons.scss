@@ -1,0 +1,16 @@
+.project-section-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all,.personal,.educational {
+    padding: 1em;
+    background-color: darkslategrey;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.all,.personal {
+    margin-right: 1em;
+}

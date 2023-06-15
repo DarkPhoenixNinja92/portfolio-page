@@ -1,3 +1,39 @@
+.project {
+  border: 2px solid steelblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95vw;
+  margin-top: 4em;
+}
+
+.project-description {
+  text-align: center;
+}
+
+.project-title {
+  position: relative;
+  bottom: 2.4vh;
+  background-color: firebrick;
+  padding: 5vh 35vw 5vh 35vw;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.heading {
+  position: relative;
+  left: 2.6em;
+  top: 1em;
+  z-index: 20;
+}
+
 .title {
   font-size: 50px;
 }
@@ -15,17 +51,41 @@
   font-size: 28px;
 }
 
-.skill-list {
-  list-style-type: none;
+.fa-html5, .fa-css3, .fa-js, .fa-sass, .fa-bootstrap, .fa-react, .fa-figma, .fa-github, .fa-python {
+  font-size: 85vw;
+}
+
+.fa-sass {
+  font-size: 78vw;
+}
+
+.project-section-btns {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.all, .personal, .educational {
+  padding: 1em;
+  background-color: darkslategrey;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.all, .personal {
+  margin-right: 1em;
 }
 
 .row i {
   font-size: 15em;
   margin-bottom: 0.5em;
+}
+
+.project-image {
+  width: 92vw;
+  position: relative;
+  bottom: 4.54vh;
+  border: 6px solid black;
 }
 
 .nav-list {
@@ -37,8 +97,9 @@
   position: absolute;
   top: -1em;
   right: -100vw;
-  height: 100vh;
+  height: 104.5vh;
   width: 33.33vw;
+  z-index: 400;
   background-color: skyblue;
 }
 .nav-list .nav-itm {
@@ -81,6 +142,7 @@
   left: 80vw;
   width: 15%;
   display: none;
+  z-index: 430;
 }
 
 .nav-show {

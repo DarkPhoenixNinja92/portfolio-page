@@ -15,10 +15,10 @@
     font-size: 28px;
 }
 
-.skill-list {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.fa-html5,.fa-css3,.fa-js,.fa-sass,.fa-bootstrap,.fa-react,.fa-figma,.fa-github,.fa-python {
+    font-size: 85vw;
+}
+
+.fa-sass {
+    font-size: 78vw;
 }
