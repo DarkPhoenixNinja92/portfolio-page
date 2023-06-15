@@ -1,0 +1,24 @@
+.title {
+  font-size: 50px;
+}
+
+.subtitle {
+  font-size: 35px;
+}
+
+.about-txt, #about {
+  text-align: center;
+  font-size: 22px;
+}
+
+#about {
+  font-size: 28px;
+}
+
+.skill-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=normalize.css.map */
