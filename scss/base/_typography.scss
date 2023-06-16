@@ -33,3 +33,32 @@
     top: 1em;
     z-index: 20;
 }
+
+.projects {
+    margin-left: 0.8em;
+}
+
+.social {
+    margin-top: 2.2em;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    a {
+        text-decoration: none;
+        color: black;
+        margin-bottom: 1.6em;
+    }
+}
+
+footer {
+    position: absolute;
+    top: 935vh;
+    margin-left: 2em;
+}
+
+footer h3 {
+        font-size: 8vw;
+        text-transform: uppercase;
+    }

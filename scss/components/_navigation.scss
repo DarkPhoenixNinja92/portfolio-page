@@ -8,7 +8,7 @@
     top: -1em;
     right: -100vw;
     height: 104.5vh;
-    width: 33.33vw;
+    width: 50%;
     z-index: 400;
     background-color: skyblue;
     .nav-itm {
@@ -29,7 +29,7 @@
             right: -100vw;
         }
         to {
-            right: 0;
+            right: -1.3em;
         }
     }
 }
@@ -49,7 +49,7 @@
 
 .mobile-menu-close {
     position: relative;
-    left: 80vw;
+    left: 85vw;
     width: 15%;
     display: none;
     z-index: 430;
@@ -57,7 +57,7 @@
 
 .nav-show {
     display: flex;
-    right: 0;
+    right: -1.3em;
 }
 
 .closing {
