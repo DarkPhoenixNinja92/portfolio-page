@@ -8,7 +8,7 @@
     top: -1em;
     right: -100vw;
     height: 104.5vh;
-    width: 50%;
+    width: 33.33%;
     z-index: 400;
     background-color: skyblue;
     .nav-itm {
@@ -29,7 +29,7 @@
             right: -100vw;
         }
         to {
-            right: -1.3em;
+            right: 4em;
         }
     }
 }
@@ -44,12 +44,12 @@
     position: absolute;
     cursor: pointer;
     top: 0;
-    right: 0;
+    right: 4em;
 }
 
 .mobile-menu-close {
     position: relative;
-    left: 85vw;
+    left: 65vw;
     width: 15%;
     display: none;
     z-index: 430;
@@ -57,7 +57,7 @@
 
 .nav-show {
     display: flex;
-    right: -1.3em;
+    right: 4em;
 }
 
 .closing {
@@ -65,7 +65,7 @@
     animation-name: slideout;
     @keyframes slideout {
         from {
-            right: 0;
+            right: 2em;
         }
         to {
             right: -100vw;

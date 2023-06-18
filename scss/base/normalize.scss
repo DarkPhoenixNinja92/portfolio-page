@@ -11,14 +11,24 @@
     font-size: 22px;
 }
 
+.about-txt {
+    width: 82%;
+}
+
 #about {
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .fa-html5,.fa-css3,.fa-js,.fa-sass,.fa-bootstrap,.fa-react,.fa-figma,.fa-github,.fa-python {
-    font-size: 85vw;
+    font-size: 65vw;
 }
 
 .fa-sass {
-    font-size: 78vw;
+    font-size: 52vw;
+}
+
+hr {
+    width: 65vw;
+    position: relative;
+    right: 2.5em;
 }

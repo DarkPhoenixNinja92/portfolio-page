@@ -4,7 +4,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 95vw;
+    position: relative;
+    left: 0;
+    width: 75vw;
     margin-top: 4em;
 }
 
@@ -16,26 +18,38 @@
     position: relative;
     bottom: 2.4vh;
     background-color: firebrick;
-    padding: 5vh 35vw 5vh 35vw;
+    padding: 5vh 30vw 5vh 30vw;
+}
+
+.paginating-list-proj .project-title {
+    padding: 5vh 24vw 5vh 24vw;
 }
 
 .skills {
+    position: relative;
+    left: 2em;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     text-align: center;
 }
 
-.heading {
+.fa-bootstrap {
     position: relative;
-    left: 2.6em;
-    top: 1em;
-    z-index: 20;
+    right: 0.1em;
 }
 
-.projects {
-    margin-left: 0.8em;
+.fa-html5,.fa-figma {
+    position: relative;
+    left: 0.1em;
+}
+
+.heading {
+    position: relative;
+    left: 1.6em;
+    top: 1em;
+    z-index: 20;
 }
 
 .social {
@@ -55,10 +69,9 @@
 footer {
     position: absolute;
     top: 935vh;
-    margin-left: 2em;
 }
 
 footer h3 {
-        font-size: 8vw;
+        font-size: 7.4vw;
         text-transform: uppercase;
     }
